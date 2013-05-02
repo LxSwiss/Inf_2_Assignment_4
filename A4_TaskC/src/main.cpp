@@ -41,7 +41,7 @@ int main (int argc, const char * argv[])
             heap.removeMin();
         }
         
-    } catch (EmptyContainerException e) {
+    } catch (EmptyContainerException& e) {
         std::cout << e.getMessage();
     }
         

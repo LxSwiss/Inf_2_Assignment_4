@@ -12,6 +12,7 @@
 #include <string>
 
 #include "Exception.h"
+#include "EmptyContainerException.h"
 
 using std::vector;
 using std::pair;
